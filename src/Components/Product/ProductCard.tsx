@@ -29,8 +29,8 @@ const ProductCard = observer((props: IProduct) => {
   const store = useContext(AppStoreClassContext)
   const [notif, setNotif] = useState(false)
   return (
-    <Grid item md={3}>
-      <Card sx={{ maxWidth: 345 }}>
+    <Grid item lg={3} md={4} sm={6} xs={12}>
+      <Card>
         <CardMedia
           component="img"
           alt={props.title}
